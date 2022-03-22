@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "env-cmd -f src/.env react-scripts start",
-    "build": "env-cmd -f src/.env react-scripts build && cp _redirects build/_redirects"!cc,
+    "build": "env-cmd -f src/.env react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
